@@ -1,6 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Modyfikacja 1");
+﻿static double Srednia(int[] liczby)
+{
+    if (liczby == null || liczby.Length == 0) return 0;
+    return liczby.Average();
+}
 
-Console.WriteLine("Modyfikacja 2");
-
-Console.WriteLine("Modyfikacja 3");
+int[] dane = { 2, 4, 6, 8 };
+Console.WriteLine($"Średnia: {Srednia(dane)}");
