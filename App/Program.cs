@@ -4,8 +4,9 @@
     return liczby.Average();
 }
 
-int[] dane = { 2, 4, 6, 8 };
-Console.WriteLine($"Średnia: {Srednia(dane)}");
+int[] numery = { 2, 4, 6, 8 };
+Console.WriteLine($"Średnia: {Srednia(numery)}");
+
 
 static int Max(int[] liczby)
 {
